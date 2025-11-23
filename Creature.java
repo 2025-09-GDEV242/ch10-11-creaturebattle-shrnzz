@@ -73,4 +73,8 @@ public abstract class Creature
         hp -= damage;
     }
     
+    //return hp
+    public int getHealth(){
+        return hp;
+    }
 }
